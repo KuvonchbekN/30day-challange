@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Yomogi', cursive;
+}
+
+section{
+    background-image: url('./birthday.jpg');
+    background-position: center center;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container div{
+    margin-right: 60px;
+    text-align: center;
+}
+
+.container div h1{
+    font-size: 5em;
+    color: antiquewhite;
+}
+
+span{
+    color: grey;
+    font-weight: 600;
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    color: rgb(247, 235, 235);
+    font-size: larger;
+    border: 3px solid grey;
+    border-radius: 13px;
+    padding: 10px 15px;
+}
+
+.title h1{
+    text-shadow: 5px 15px 25px rgb(30, 17, 73); 
+}
+
+.title span{
+    color: rgb(149, 163, 96);
+    font-weight: 900;
+}
